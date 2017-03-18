@@ -1,2 +1,2 @@
-# EXP-SplashPainterVR
-Splash Painter VR
+# 3D painter framework for Unity 3D
+
