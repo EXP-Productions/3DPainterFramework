@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1946550194819106}
+  m_IsPrefabParent: 1
+--- !u!1 &1593590661493418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4962516301022576}
+  - component: {fileID: 114205466724536694}
+  m_Layer: 0
+  m_Name: _Sample stroke canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1719469965692380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4959131897431330}
+  - component: {fileID: 114418729337799662}
+  m_Layer: 0
+  m_Name: _Brush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1763963772388494
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4212659619950278}
+  m_Layer: 0
+  m_Name: _Brush tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1781006056683544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4656523906690924}
+  - component: {fileID: 114613485336274980}
+  m_Layer: 0
+  m_Name: _Resource Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1946550194819106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4060525957300484}
+  - component: {fileID: 114865732883039114}
+  m_Layer: 0
+  m_Name: _Painting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060525957300484
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946550194819106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4656523906690924}
+  - {fileID: 4962516301022576}
+  - {fileID: 4959131897431330}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4212659619950278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763963772388494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4959131897431330}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4656523906690924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781006056683544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6477823, y: 1.690469, z: 0.0048131943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4060525957300484}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4959131897431330
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719469965692380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4212659619950278}
+  m_Father: {fileID: 4060525957300484}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4962516301022576
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593590661493418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.8, y: 2.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4060525957300484}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114205466724536694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593590661493418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43447ec483c74d144a67451aee75b4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ButtonGrid: {fileID: 0}
+  m_BrushButtonPrefab: {fileID: 114596671377556076, guid: 0630e82c93745664c821e5d45d7f6a79,
+    type: 2}
+  m_Initialized: 0
+--- !u!114 &114418729337799662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719469965692380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fcfd5b12cbc2340a6123aba115161f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PaintManager: {fileID: 114865732883039114}
+  m_BrushTip: {fileID: 4212659619950278}
+  m_MinNodeSpacing: 0.05
+  m_UpdateTipFacing: 1
+  m_DepthOffsetPerStroke: -0.006
+  m_UseMouseInput: 1
+--- !u!114 &114613485336274980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781006056683544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3126013ef826b4eb69f414aa3ab227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllStrokeRenderers:
+  - {fileID: 114831398916411144, guid: 6286a3e7263149a478b47c5ae0323453, type: 2}
+  - {fileID: 114831398916411144, guid: 94e298ffdedb9d74caec36836edb705b, type: 2}
+  - {fileID: 114283546459878356, guid: 895461a83bdc828459db5a57f598da99, type: 2}
+  - {fileID: 114283546459878356, guid: 1d9c4fc57ba654240b718bbf140d6e82, type: 2}
+  - {fileID: 114283546459878356, guid: 6132d47fcbb8144439b2feff4ed6b43e, type: 2}
+  - {fileID: 114283546459878356, guid: 17ef6dc893dd6b44a8e6cc86292463fe, type: 2}
+  - {fileID: 114283546459878356, guid: 663c4ed9b39d05540a1045ec447798f4, type: 2}
+  - {fileID: 114622177378302036, guid: 1701c4609526d4c4f8855dfd7385cf7a, type: 2}
+  m_ActiveStokeRendererIndex: 0
+  m_AllMaterials:
+  - {fileID: 2100000, guid: 863b932edb5506043941cbe9c4ddbef2, type: 2}
+  - {fileID: 2100000, guid: 6b31ba5a2d40e094db31ef6260df138c, type: 2}
+  - {fileID: 2100000, guid: 3daeb924dce747547ab9cae2aeda7a16, type: 2}
+  - {fileID: 2100000, guid: 75a486119701f3f44ab367d0db8e8bed, type: 2}
+  - {fileID: 2100000, guid: 6693dc365e32f7545a1daecc968dd01b, type: 2}
+  - {fileID: 2100000, guid: 3812733b16fa2dc44aaa149445f6a51f, type: 2}
+  - {fileID: 2100000, guid: ead980e5010d0bc48aeec06cf0dc0fd8, type: 2}
+  - {fileID: 2100000, guid: 2cc687ac6a4f8b644ae40d4a1d6481c9, type: 2}
+  - {fileID: 2100000, guid: e7ecd22de3b44f94a8d82d8859e3ff8a, type: 2}
+  - {fileID: 2100000, guid: d02f9674361735543ad9b6af6ca7fbf4, type: 2}
+  - {fileID: 2100000, guid: 2c97758ad00c6214386d6dd6e5831d59, type: 2}
+  - {fileID: 2100000, guid: e0d1e227e9e19b54e847a5e9c62b9c1e, type: 2}
+  - {fileID: 2100000, guid: f4277b333bf18bd4c9ab0bb766b5f309, type: 2}
+  - {fileID: 2100000, guid: 85b8ef4e3b36bd243ba431ef82dad0fc, type: 2}
+--- !u!114 &114865732883039114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1946550194819106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4dc388686616641bd8a3668d81a053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ResourceManager: {fileID: 114613485336274980}
+  m_ActiveBrush: {fileID: 114418729337799662}
+  m_PaintingLayer: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_SampleStrokeCanvas: {fileID: 114205466724536694}
+  m_CanvasCollider: {fileID: 0}
+  m_UndoCount: 0
+  m_ColourCount: 0
+  m_StrokeCount: 0
+  m_UseStrokeOffset: 1
+  m_InputActive: 1
